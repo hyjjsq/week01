@@ -19,7 +19,7 @@ namespace helloword
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello,World!");
+            MessageBox.Show(this,"Hello,World!","提示信息",MessageBoxDefaultButton.OK,MessageBoxIcon.Information);
         }
     }
 }
